@@ -9,9 +9,7 @@ spring:
       server:
         git:
           url: https://github.com/AmanKishan/dummy-config-server.git
-          username: AmanKishan
-          password: Ram@kishan1924
-          searchPaths: configuration
+          searchPaths: 
 
 logging:
   level:
