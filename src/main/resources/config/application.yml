@@ -1,0 +1,18 @@
+server:
+  port: ${PORT:8888}
+  
+spring:
+  application:
+    name: dummy-config-server
+  cloud:
+    config:
+      server:
+        git:
+          url: https://github.com/AmanKishan/dummy-config-server.git
+          username: AmanKishan
+          password: Ram@kishan1924
+          searchPaths: configuration
+
+logging:
+  level:
+    com.dummy.configserver: DEBUG          
